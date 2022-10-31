@@ -1,0 +1,57 @@
+.b1 {
+    transition: 0.5s;
+    background-color: rgb(0, 191, 0);
+    color: white;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    border: rgba(0, 191, 0, 0.543) solid 0.5px;
+    border-radius: 6px;
+}
+
+.b1:hover {
+    transition: 0.5s;
+    border-radius: 30px;
+}
+
+
+.b2 {
+    transition: 0.5s;
+    background-color: rgba(191, 0, 0, 0.707);
+    color: white;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    border: rgba(191, 0, 0, 0.707) solid 0.5px;
+    border-radius: 6px;
+}
+
+.b2:hover {
+    transition: 0.5s;
+    background-color: rgba(181, 44, 44, 0.707);
+}
+
+
+.b3 {
+    transition: 0.5s;
+    background-color: rgb(255, 255, 255);
+    color: rgb(78, 78, 78);
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    border: rgb(78, 78, 78) solid 0.5px;
+    border-radius: 6px;
+}
+
+.b3:hover {
+    transition: 0.5s;
+    background-color: rgb(78, 78, 78);
+    border: rgb(78, 78, 78) solid 1px;
+    color: rgb(255, 255, 255);
+}
